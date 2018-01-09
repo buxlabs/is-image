@@ -6,3 +6,4 @@ assert(isImage('foo.JPG'));
 assert(!isImage('foo.zip'));
 assert(!isImage('foozip'));
 assert(!isImage('foo.txt'));
+assert(!isImage('jpg'));

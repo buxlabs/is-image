@@ -2,7 +2,7 @@
 
 > Check if a filepath is an image
 
-The package is very similar to [image-type](https://github.com/sindresorhus/image-type) but it does not depend on built in `path` and does not use `const` or `Set`. It makes it simpler to use it in older browsers without a transpilation step.
+The package is very similar to [image-type](https://github.com/sindresorhus/image-type) but it does not depend on built in `path` and does not use `const` or `Set`. It makes it simpler to use it in older browsers without a transpilation step. It does not handle all of the edge cases as `path.extname` does though.
 
 ## Install
 
