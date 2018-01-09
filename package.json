@@ -1,0 +1,27 @@
+{
+  "name": "@buxlabs/is-image",
+  "version": "1.0.0",
+  "description": "Check if a filepath is an image",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buxlabs/is-image.git"
+  },
+  "keywords": [
+    "image",
+    "extension"
+  ],
+  "author": "Emil Ajdyna <emil@ajdyna.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buxlabs/is-image/issues"
+  },
+  "homepage": "https://github.com/buxlabs/is-image#readme",
+  "dependencies": {
+    "image-extensions": "^1.1.0",
+    "utils-extname": "^1.0.0"
+  }
+}
